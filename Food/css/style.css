@@ -440,6 +440,30 @@ header .navbar a:hover {
   background: var(--red);
 }
 
+footer {
+  background: #000;
+  text-align: center;
+  padding: 2rem 9%;
+}
+
+footer .share {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer .credit {
+  padding: 2rem 1rem;
+  color: #fff;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+footer .credit span {
+  color: var(--red);
+}
+
 @keyframes float {
   0%,
   100% {
