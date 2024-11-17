@@ -6,7 +6,8 @@
 }
 
 body,
-input {
+input,
+.container {
     font-family: 'Poppins', sans-serif;
 }
 
