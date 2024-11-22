@@ -99,7 +99,7 @@ img {
   padding-block: 5rem 1rem;
 }
 
-.section__title {
+.section_title {
   text-align: center;
   font-size: var(--h1-font-size);
   margin-bottom: 1.5rem;
@@ -107,4 +107,30 @@ img {
 
 .main {
   overflow: hidden;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  width: 100%;
+  background: transparent;
+}
+.nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_logo {
+  color: var(--title-color);
+  font-family: var(--second-font);
+  font-weight: var(--font-semi-bold);
+}
+.nav_toggle,
+.nav_close {
+  display: flex;
+  font-size: 1.25rem;
+  color: var(--title-color);
+  cursor: pointer;
 }
