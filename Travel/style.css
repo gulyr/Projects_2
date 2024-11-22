@@ -162,6 +162,46 @@ img {
   top: 0;
 }
 
+.about_container {
+  row-gap: 3rem;
+}
+
+.about_data {
+  text-align: center;
+}
+
+.about_description {
+  margin-bottom: 2rem;
+}
+
+.about_image {
+  position: relative;
+  justify-self: center;
+  overflow: hidden;
+}
+
+.about_img {
+  width: 300px;
+  transition: transform 0.4s;
+}
+
+.about_shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    hsla(0, 0%, 0%, 0) 50%,
+    hsla(0, 0%, 0%) 125%
+  );
+}
+
+.about_image:hover .about_img {
+  transform: scale(1.2);
+}
+
 .blur_header::after {
   content: '';
   position: absolute;
