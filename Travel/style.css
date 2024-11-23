@@ -421,6 +421,52 @@ img {
   font-size: var(--small-font-size);
   color: var(--title-color);
 }
+/* join section */
+.join_container {
+  row-gap: 3rem;
+  padding-bottom: 2.5rem;
+}
+.join_data {
+  text-align: center;
+}
+.join_description {
+  margin-bottom: 2rem;
+}
+.join_form {
+  display: grid;
+  row-gap: 1rem;
+}
+.join_input {
+  padding: 1.25rem 1rem;
+  background: var(--container-color);
+}
+.join_button {
+  cursor: pointer;
+}
+.join_image {
+  position: relative;
+  justify-self: center;
+  overflow: hidden;
+}
+.join_img {
+  width: 300px;
+  transition: transform 0.4s;
+}
+.join_shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    hsla(0, 0%, 0%, 0) 50%,
+    hsl(0, 0%, 0%) 125%
+  );
+}
+.join_image:hover .join_img {
+  transform: scale(1.2);
+}
 @media screen and (max-width: 1023px) {
   .nav_menu {
     position: fixed;
