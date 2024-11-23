@@ -138,7 +138,19 @@ img {
   color: var(--title-color);
   cursor: pointer;
 }
-
+@media screen and (max-width: 1023px) {
+  .nav_menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    background: hsla(0, 0%, 0%, 0.3);
+    width: 100%;
+    padding-block: 4rem;
+    backdrop-filter: blur(24px);
+    --webkit-backdrop-filter: blur(24px);
+    transition: top 0.4s;
+  }
+}
 .nav_list {
   text-align: center;
   display: flex;
@@ -153,7 +165,7 @@ img {
 }
 
 .nav_close {
-  position: fixed;
+  position: absolute;
   top: 1rem;
   right: 1.5rem;
 }
@@ -564,19 +576,7 @@ footer {
 .show_scroll {
   bottom: 3rem;
 }
-@media screen and (max-width: 1023px) {
-  .nav_menu {
-    position: fixed;
-    top: -100%;
-    left: 0;
-    background: hsla(0, 0%, 0%, 0.3);
-    width: 100%;
-    padding-block: 4rem;
-    backdrop-filter: blur(24px);
-    --webkit-backdrop-filter: blur(24px);
-    transition: top 0.4s;
-  }
-}
+
 /* Small devices */
 /* Medium devices */
 /* Large devices */
