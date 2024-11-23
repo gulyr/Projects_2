@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Poppins:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Poppins:wght@400;500&display=swap");
 :root {
   --header-height: 3.5rem;
   --title-color: hsl(0, 0%, 95%);
@@ -6,8 +6,8 @@
   --text-color-light: hsl(0, 0%, 60%);
   --body-color: hsl(0, 0%, 0%);
   --container-color: hsl(0, 0%, 8%);
-  --body-font: 'Poppins', sans-serif;
-  --second-font: 'Montserrat', sans-serif;
+  --body-font: "Poppins", sans-serif;
+  --second-font: "Montserrat", sans-serif;
   --biggest-font-size: 2.75rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -203,7 +203,7 @@ img {
 }
 
 .blur_header::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -328,7 +328,51 @@ img {
 .button:hover i {
   transform: translateX(0.25rem);
 }
-
+/* popular section */
+.popular_container {
+  padding-top: 1.5rem;
+  grid-template-columns: 240px;
+  justify-content: center;
+  row-gap: 2.5rem;
+}
+.popular_image {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.popular_img {
+  transition: transform 0.4s;
+}
+.popular_shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    hsla(0, 0%, 0%, 0) 50%,
+    hsla(0, 0%, 0%) 125%
+  );
+}
+.popular_title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.5rem;
+}
+.popular_location {
+  display: inline-flex;
+  align-items: center;
+  column-count: 0.25rem;
+  font-size: var(--small-font-size);
+  font-family: var(--second-font);
+  font-weight: 500;
+}
+.popular_location i {
+  font-size: 1rem;
+}
+.popular_image:hover .popular_img {
+  transform: scale(1.2);
+}
 @media screen and (max-width: 1023px) {
   .nav_menu {
     position: fixed;

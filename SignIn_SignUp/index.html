@@ -1,84 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Sign in & Sign up Form</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="forms_container">
-            <div class="signin_signup">
-                <form action="#" class="sign_in_form">
-                    <h2 class="title">Sign in</h2>
-                    <div class="input_field">
-                        <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username" />
-                    </div>
-                    <div class="input_field">
-                        <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password" />
-                    </div>
-                    <input type="submit" value="Login" class="btn" />
-                    <p class="social_text">Or Sign in with social platforms</p>
-                    <div class="social_media">
-                        <a href="#" class="social_icon"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social_icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social_icon"><i class="fab fa-google"></i></a>
-                        <a href="#" class="social_icon"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </form>
-                <form action="#" class="sign_up_form">
-                    <h2 class="title">Sign up</h2>
-                    <div class="input_field">
-                        <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username" />
-                    </div>
-                    <div class="input_field">
-                        <i class="fas fa-envelope"></i>
-                        <input type="email" placeholder="Email" />
-                    </div>
-                    <div class="input_field">
-                        <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password" />
-                    </div>
-                    <input type="submit" class="btn" value="Sign up" />
-                    <p class="social_text">Or Sign up with social platforms</p>
-                    <div class="social_media">
-                        <a href="#" class="social_icon"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social_icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social_icon"><i class="fab fa-google"></i></a>
-                        <a href="#" class="social_icon"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </form>
+      <div class="forms_container">
+        <div class="signin_signup">
+          <form action="#" class="sign_in_form">
+            <h2 class="title">Sign in</h2>
+            <div class="input_field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
             </div>
+            <div class="input_field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" value="Login" class="btn" />
+            <p class="social_text">Or Sign in with social platforms</p>
+            <div class="social_media">
+              <a href="#" class="social_icon"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social_icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social_icon"><i class="fab fa-google"></i></a>
+              <a href="#" class="social_icon"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </form>
+          <form action="#" class="sign_up_form">
+            <h2 class="title">Sign up</h2>
+            <div class="input_field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input_field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input_field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" class="btn" value="Sign up" />
+            <p class="social_text">Or Sign up with social platforms</p>
+            <div class="social_media">
+              <a href="#" class="social_icon"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social_icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social_icon"><i class="fab fa-google"></i></a>
+              <a href="#" class="social_icon"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </form>
         </div>
+      </div>
 
-        <div class="panels_container">
-            <div class="panel left_panel">
-                <div class="content">
-                    <h3>New here ?</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, ex ratione. Aliquid!</p>
-                    <button class="btn transparent" id="sign_up_btn">Sign up</button>
-                </div>
-                <img src="image/log.svg" class="image" alt="Login" />
-            </div>
-            <div class="panel right_panel">
-                <div class="content">
-                    <h3>One of us ?</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laboriosam ad deleniti.</p>
-                    <button class="btn transparent" id="sign_in_btn">Sign in</button>
-                </div>
-                <img src="image/register.svg" class="image" alt="Register" />
-            </div>
+      <div class="panels_container">
+        <div class="panel left_panel">
+          <div class="content">
+            <h3>New here ?</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+              ex ratione. Aliquid!
+            </p>
+            <button class="btn transparent" id="sign_up_btn">Sign up</button>
+          </div>
+          <img src="image/log.svg" class="image" alt="Login" />
         </div>
+        <div class="panel right_panel">
+          <div class="content">
+            <h3>One of us ?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              laboriosam ad deleniti.
+            </p>
+            <button class="btn transparent" id="sign_in_btn">Sign in</button>
+          </div>
+          <img src="image/register.svg" class="image" alt="Register" />
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

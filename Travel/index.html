@@ -1,107 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Travel</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Travel</title>
-</head>
+  <body>
+    <!-- header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">Travel</a>
+        <div class="nav_menu" id="navMenu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">About</a>
+            </li>
+            <li class="nav_item">
+              <a href="#popular" class="nav_link">Popular</a>
+            </li>
+            <li class="nav_item">
+              <a href="#explore" class="nav_link">Explore</a>
+            </li>
+          </ul>
+          <div class="nav_close" id="navClose">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <div class="nav_toggle" id="navToggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- main -->
+    <main class="main">
+      <!-- home section -->
+      <section class="home section" id="home">
+        <img src="images/home-bg.jpg" alt="Home image" class="home_bg" />
+        <div class="home_shadow"></div>
+        <div class="home_container container grid">
+          <div class="home_data">
+            <h3 class="home_subtitle">Welcome To Travel</h3>
+            <h1 class="home_title">Explore <br />The World</h1>
+            <p class="home_description">
+              Live the trips exploring the world, discover paradises, islands,
+              mountains and much more, get your trip now.
+            </p>
+            <a href="#" class="button"
+              >Start Your Journey <i class="ri-arrow-right-line"></i
+            ></a>
+          </div>
+          <div class="home_cards grid">
+            <article class="home_card">
+              <img
+                src="images/home-trees.jpg"
+                alt="Home image"
+                class="home_card_img"
+              />
+              <h3 class="home_card_title">Croatia</h3>
+              <div class="home_card_shadow"></div>
+            </article>
 
-<body>
-  <!-- header -->
-  <header class="header" id="header">
-    <nav class="nav container">
-      <a href="#" class="nav_logo">Travel</a>
-      <div class="nav_menu" id="navMenu">
-        <ul class="nav_list">
-          <li class="nav_item">
-            <a href="#home" class="nav_link">Home</a>
-          </li>
-          <li class="nav_item">
-            <a href="#about" class="nav_link">About</a>
-          </li>
-          <li class="nav_item">
-            <a href="#popular" class="nav_link">Popular</a>
-          </li>
-          <li class="nav_item">
-            <a href="#explore" class="nav_link">Explore</a>
-          </li>
-        </ul>
-        <div class="nav_close" id="navClose">
-          <i class="ri-close-line"></i>
+            <article class="home_card">
+              <img
+                src="images/home-lake.jpg"
+                alt="Home image"
+                class="home_card_img"
+              />
+              <h3 class="home_card_title">Iceland</h3>
+              <div class="home_card_shadow"></div>
+            </article>
+
+            <article class="home_card">
+              <img
+                src="images/home-mountain.jpg"
+                alt="Home image"
+                class="home_card_img"
+              />
+              <h3 class="home_card_title">Italy</h3>
+              <div class="home_card_shadow"></div>
+            </article>
+
+            <article class="home_card">
+              <img
+                src="images/home-beach.jpg"
+                alt="Home image"
+                class="home_card_img"
+              />
+              <h3 class="home_card_title">Spain</h3>
+              <div class="home_card_shadow"></div>
+            </article>
+          </div>
         </div>
-      </div>
-      <div class="nav_toggle" id="navToggle">
-        <i class="ri-menu-line"></i>
-      </div>
-    </nav>
-  </header>
-  <!-- main -->
-  <main class="main">
-    <!-- home section -->
-    <section class="home section" id="home">
-      <img src="images/home-bg.jpg" alt="Home image" class="home_bg">
-      <div class="home_shadow"></div>
-      <div class="home_container container grid">
-        <div class="home_data">
-          <h3 class="home_subtitle">Welcome To Travel</h3>
-          <h1 class="home_title">Explore <br />The World</h1>
-          <p class="home_description">Live the trips exploring the world, discover paradises, islands, mountains and much more, get your trip now.</p>
-          <a href="#" class="button">Start Your Journey <i class="ri-arrow-right-line"></i></a>
+      </section>
+      <!-- about section -->
+      <section class="about section" id="about">
+        <div class="about_container container grid">
+          <div class="about_data">
+            <h2 class="section_title">
+              Learn More <br />
+              About Travel
+            </h2>
+            <p class="about__description">
+              All the trips around the world are a great pleasure and happiness
+              for anyone, enjoy the sights when you travel the world. Travel
+              safely and without worries, get your trip and explore the
+              paradises of the world.
+            </p>
+            <a href="#" class="button"
+              >Explore Travel <i class="ri-arrow-right-line"></i
+            ></a>
+          </div>
+          <div class="about_image">
+            <img
+              src="images/about-beach.jpg"
+              alt="about image"
+              class="about_img"
+            />
+            <div class="about_shadow"></div>
+          </div>
         </div>
-        <div class="home_cards grid">
-          <article class="home_card">
-            <img src="images/home-trees.jpg" alt="Home image" class="home_card_img">
-            <h3 class="home_card_title">Croatia</h3>
-            <div class="home_card_shadow"></div>
+      </section>
+      <!-- popular section -->
+      <section class="popular_section" id="popular">
+        <h2 class="section_title">
+          Enjoy The Beauty <br />
+          Of The World
+        </h2>
+        <div class="popular_container container grid">
+          <article class="popular_card">
+            <div class="popular_image">
+              <img
+                src="images/popular-mountain.jpg"
+                alt="Popular image"
+                class="popular_img"
+              />
+              <div class="popular_shadow"></div>
+            </div>
+            <h2 class="popular_title">Logan Mountain</h2>
+            <div class="popular_location">
+              <i class="ri-map-pin-line"></i><span>Canadá</span>
+            </div>
           </article>
 
-          <article class="home_card">
-            <img src="images/home-lake.jpg" alt="Home image" class="home_card_img">
-            <h3 class="home_card_title">Iceland</h3>
-            <div class="home_card_shadow"></div>
-          </article>
-
-          <article class="home_card">
-            <img src="images/home-mountain.jpg" alt="Home image" class="home_card_img">
-            <h3 class="home_card_title">Italy</h3>
-            <div class="home_card_shadow"></div>
-          </article>
-
-          <article class="home_card">
-            <img src="images/home-beach.jpg" alt="Home image" class="home_card_img">
-            <h3 class="home_card_title">Spain</h3>
-            <div class="home_card_shadow"></div>
+          <article class="popular_card">
+            <div class="popular_image">
+              <img
+                src="images/popular-forest.jpg"
+                alt="Popular image"
+                class="popular_img"
+              />
+              <div class="popular_shadow"></div>
+            </div>
+            <h2 class="popular_title">Garda Lake</h2>
+            <div class="popular_location">
+              <i class="ri-map-pin-line"></i><span>Italy</span>
+            </div>
           </article>
         </div>
-      </div>
-    </section>
-    <!-- about section -->
-    <section class="about section" id="about">
-      <div class="about_container container grid">
-        <div class="about_data">
-          <h2 class="section_title">Learn More <br> About Travel</h2>
-          <p class="about__description">All the trips around the world are a great pleasure and happiness for anyone, enjoy the sights when you travel
-            the world. Travel safely and without worries, get your trip and explore the paradises of the world.</p>
-          <a href="#" class="button">Explore Travel <i class="ri-arrow-right-line"></i></a>
-        </div>
-        <div class="about_image">
-          <img src="images/about-beach.jpg" alt="about image" class="about_img">
-          <div class="about_shadow"></div>
-        </div>
-      </div>
-    </section>
-    <section class="popular section" id="popular"></section>
-    <section class="explore section" id="explore"></section>
-    <section class="join section"></section>
-  </main>
-  <!-- footer -->
-  <footer class="footer"></footer>
-  <script src=""></script>
-  <script src="script.js"></script>
-</body>
-
+      </section>
+      <section class="explore section" id="explore"></section>
+      <section class="join section"></section>
+    </main>
+    <!-- footer -->
+    <footer class="footer"></footer>
+    <script src=""></script>
+    <script src="script.js"></script>
+  </body>
 </html>
