@@ -1,342 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Travel</title>
-  </head>
 
-  <body>
-    <!-- header -->
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav_logo">Travel</a>
-        <div class="nav_menu" id="navMenu">
-          <ul class="nav_list">
-            <li class="nav_item">
-              <a href="#home" class="nav_link">Home</a>
-            </li>
-            <li class="nav_item">
-              <a href="#about" class="nav_link">About</a>
-            </li>
-            <li class="nav_item">
-              <a href="#popular" class="nav_link">Popular</a>
-            </li>
-            <li class="nav_item">
-              <a href="#explore" class="nav_link">Explore</a>
-            </li>
-          </ul>
-          <div class="nav_close" id="navClose">
-            <i class="ri-close-line"></i>
-          </div>
-        </div>
-        <div class="nav_toggle" id="navToggle">
-          <i class="ri-menu-line"></i>
-        </div>
-      </nav>
-    </header>
-    <!-- main -->
-    <main class="main">
-      <!-- home section -->
-      <section class="home section" id="home">
-        <img src="images/home-bg.jpg" alt="Home image" class="home_bg" />
-        <div class="home_shadow"></div>
-        <div class="home_container container grid">
-          <div class="home_data">
-            <h3 class="home_subtitle">Welcome To Travel</h3>
-            <h1 class="home_title">Explore <br />The World</h1>
-            <p class="home_description">
-              Live the trips exploring the world, discover paradises, islands,
-              mountains and much more, get your trip now.
-            </p>
-            <a href="#" class="button"
-              >Start Your Journey <i class="ri-arrow-right-line"></i
-            ></a>
-          </div>
-          <div class="home_cards grid">
-            <article class="home_card">
-              <img
-                src="images/home-trees.jpg"
-                alt="Home image"
-                class="home_card_img"
-              />
-              <h3 class="home_card_title">Croatia</h3>
-              <div class="home_card_shadow"></div>
-            </article>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Travel</title>
+</head>
 
-            <article class="home_card">
-              <img
-                src="images/home-lake.jpg"
-                alt="Home image"
-                class="home_card_img"
-              />
-              <h3 class="home_card_title">Iceland</h3>
-              <div class="home_card_shadow"></div>
-            </article>
-
-            <article class="home_card">
-              <img
-                src="images/home-mountain.jpg"
-                alt="Home image"
-                class="home_card_img"
-              />
-              <h3 class="home_card_title">Italy</h3>
-              <div class="home_card_shadow"></div>
-            </article>
-
-            <article class="home_card">
-              <img
-                src="images/home-beach.jpg"
-                alt="Home image"
-                class="home_card_img"
-              />
-              <h3 class="home_card_title">Spain</h3>
-              <div class="home_card_shadow"></div>
-            </article>
-          </div>
-        </div>
-      </section>
-      <!-- about section -->
-      <section class="about section" id="about">
-        <div class="about_container container grid">
-          <div class="about_data">
-            <h2 class="section_title">
-              Learn More <br />
-              About Travel
-            </h2>
-            <p class="about_description">
-              All the trips around the world are a great pleasure and happiness
-              for anyone, enjoy the sights when you travel the world. Travel
-              safely and without worries, get your trip and explore the
-              paradises of the world.
-            </p>
-            <a href="#" class="button"
-              >Explore Travel <i class="ri-arrow-right-line"></i
-            ></a>
-          </div>
-          <div class="about_image">
-            <img
-              src="images/about-beach.jpg"
-              alt="about image"
-              class="about_img"
-            />
-            <div class="about_shadow"></div>
-          </div>
-        </div>
-      </section>
-      <!-- popular section -->
-      <section class="popular section" id="popular">
-        <h2 class="section_title">
-          Enjoy The Beauty <br />
-          Of The World
-        </h2>
-        <div class="popular_container container grid">
-          <article class="popular_card">
-            <div class="popular_image">
-              <img
-                src="images/popular-mountain.jpg"
-                alt="Popular image"
-                class="popular_img"
-              />
-              <div class="popular_shadow"></div>
-            </div>
-            <h2 class="popular_title">Logan Mountain</h2>
-            <div class="popular_location">
-              <i class="ri-map-pin-line"></i><span>Canadá</span>
-            </div>
-          </article>
-
-          <article class="popular_card">
-            <div class="popular_image">
-              <img
-                src="images/popular-forest.jpg"
-                alt="Popular image"
-                class="popular_img"
-              />
-              <div class="popular_shadow"></div>
-            </div>
-            <h2 class="popular_title">Spike Forest</h2>
-            <div class="popular_location">
-              <i class="ri-map-pin-line"></i><span>Irland</span>
-            </div>
-          </article>
-
-          <article class="popular_card">
-            <div class="popular_image">
-              <img
-                src="images/popular-lake.jpg"
-                alt="Popular image"
-                class="popular_img"
-              />
-              <div class="popular_shadow"></div>
-            </div>
-            <h2 class="popular_title">Garda Lake</h2>
-            <div class="popular_location">
-              <i class="ri-map-pin-line"></i><span>Italy</span>
-            </div>
-          </article>
-        </div>
-      </section>
-      <!-- explore section -->
-      <section class="explore section" id="explore">
-        <div class="explore_container">
-          <div class="explore_image">
-            <img
-              src="images/explore-beach.jpg"
-              alt="Explore image"
-              class="explore_img"
-            />
-            <div class="explore_shadow"></div>
-          </div>
-          <div class="explore_content container grid">
-            <div class="explore_data">
-              <h2 class="section_title">
-                Explore The <br />
-                Best Paradises
-              </h2>
-              <p class="explore_description">
-                Exploring paradises such as islands and valleys when traveling
-                the world is one of the greatest experiences when you travel, it
-                offers you harmony and peace and you can enjoy it with great
-                comfort.
-              </p>
-            </div>
-            <div class="explore_user">
-              <img
-                src="images/explore-perfil.png"
-                alt="Explore image"
-                class="explore_perfil"
-              />
-              <span class="explore_name">Paul Jeams</span>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- join section -->
-      <section class="join section">
-        <div class="join_container container grid">
-          <div class="join_data">
-            <h2 class="section_title">
-              Your Journey <br />
-              Starts Here
-            </h2>
-            <p class="join_description">
-              Get up to date with the latest travel and information from us.
-            </p>
-            <form action="" class="join_form">
-              <input
-                type="email"
-                class="join_input"
-                placeholder="Enter your email"
-              />
-              <button class="join_button button">
-                Subscribe Our Newsletter <i class="ri-arrow-right-line"></i>
-              </button>
-            </form>
-          </div>
-          <div class="join_image">
-            <img
-              src="images/join-island.jpg"
-              alt="Join image"
-              class="join_img"
-            />
-            <div class="join_shadow"></div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <!-- footer -->
-    <footer class="footer">
-      <div class="footer_container container grid">
-        <div class="footer_content grid">
-          <div>
-            <a href="#" class="footer_logo">Travel</a>
-            <p class="footer_description">
-              Travel with us and explore <br />
-              the world without limits.
-            </p>
-          </div>
-          <div class="footer_data grid">
-            <div>
-              <h3 class="footer_title">About</h3>
-              <ul class="footer_links">
-                <li><a href="#" class="footer_link">About Us</a></li>
-                <li><a href="#" class="footer_link">Features</a></li>
-                <li><a href="#" class="footer_link">News & Blog</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 class="footer_title">Company</h3>
-              <ul class="footer_links">
-                <li><a href="#" class="footer_link">FAQs</a></li>
-                <li><a href="#" class="footer_link">History</a></li>
-                <li><a href="#" class="footer_link">Testimonials</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 class="footer_title">Contact</h3>
-              <ul class="footer_links">
-                <li><a href="#" class="footer_link">Call Center</a></li>
-                <li><a href="#" class="footer_link">Support Center</a></li>
-                <li><a href="#" class="footer_link">Contact Us</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 class="footer_title">Support</h3>
-              <ul class="footer_links">
-                <li><a href="#" class="footer_link"> Privacy Policy</a></li>
-                <li><a href="#" class="footer_link">Terms & Services</a></li>
-                <li><a href="#" class="footer_link">Payments</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="footer_group">
-          <div class="footer_social">
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              class="footer_social_link"
-              ><i class="ri-facebook-line"></i
-            ></a>
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              class="footer_social_link"
-              ><i class="ri-instagram-line"></i
-            ></a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              class="footer_social_link"
-              ><i class="ri-twitter-line"></i
-            ></a>
-            <a
-              href="https://www.youtube.com/"
-              target="_blank"
-              class="footer_social_link"
-            >
-              <i class="ri-youtube-line"></i
-            ></a>
-          </div>
-          <span class="footer_copy"> &#169; Created by Gul Rasulzada. </span>
+<body>
+  <!-- header -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav_logo">Travel</a>
+      <div class="nav_menu" id="navMenu">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="#home" class="nav_link">Home</a>
+          </li>
+          <li class="nav_item">
+            <a href="#about" class="nav_link">About</a>
+          </li>
+          <li class="nav_item">
+            <a href="#popular" class="nav_link">Popular</a>
+          </li>
+          <li class="nav_item">
+            <a href="#explore" class="nav_link">Explore</a>
+          </li>
+        </ul>
+        <div class="nav_close" id="navClose">
+          <i class="ri-close-line"></i>
         </div>
       </div>
-    </footer>
-    <!-- scroll-up -->
-    <a href="#" class="scroll_up" id="scrollUp"
-      ><i class="ri-arrow-up-line"></i
-    ></a>
-    <script src=""></script>
-    <script src="script.js"></script>
-  </body>
+      <div class="nav_toggle" id="navToggle">
+        <i class="ri-menu-line"></i>
+      </div>
+    </nav>
+  </header>
+  <!-- main -->
+  <main class="main">
+    <!-- home section -->
+    <section class="home section" id="home">
+      <img src="images/home-bg.jpg" alt="Home image" class="home_bg" />
+      <div class="home_shadow"></div>
+      <div class="home_container container grid">
+        <div class="home_data">
+          <h3 class="home_subtitle">Welcome To Travel</h3>
+          <h1 class="home_title">Explore <br />The World</h1>
+          <p class="home_description">
+            Live the trips exploring the world, discover paradises, islands, mountains and much more, get your trip now.
+          </p>
+          <a href="#" class="button">Start Your Journey <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="home_cards grid">
+          <article class="home_card">
+            <img src="images/home-trees.jpg" alt="Home image" class="home_card_img" />
+            <h3 class="home_card_title">Croatia</h3>
+            <div class="home_card_shadow"></div>
+          </article>
+
+          <article class="home_card">
+            <img src="images/home-lake.jpg" alt="Home image" class="home_card_img" />
+            <h3 class="home_card_title">Iceland</h3>
+            <div class="home_card_shadow"></div>
+          </article>
+
+          <article class="home_card">
+            <img src="images/home-mountain.jpg" alt="Home image" class="home_card_img" />
+            <h3 class="home_card_title">Italy</h3>
+            <div class="home_card_shadow"></div>
+          </article>
+
+          <article class="home_card">
+            <img src="images/home-beach.jpg" alt="Home image" class="home_card_img" />
+            <h3 class="home_card_title">Spain</h3>
+            <div class="home_card_shadow"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- about section -->
+    <section class="about section" id="about">
+      <div class="about_container container grid">
+        <div class="about_data">
+          <h2 class="section_title">
+            Learn More <br /> About Travel
+          </h2>
+          <p class="about_description">
+            All the trips around the world are a great pleasure and happiness for anyone, enjoy the sights when you travel the world. Travel safely
+            and without worries, get your trip and explore the paradises of the world.
+          </p>
+          <a href="#" class="button">Explore Travel <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="about_image">
+          <img src="images/about-beach.jpg" alt="about image" class="about_img" />
+          <div class="about_shadow"></div>
+        </div>
+      </div>
+    </section>
+    <!-- popular section -->
+    <section class="popular section" id="popular">
+      <h2 class="section_title">
+        Enjoy The Beauty <br /> Of The World
+      </h2>
+      <div class="popular_container container grid">
+        <article class="popular_card">
+          <div class="popular_image">
+            <img src="images/popular-mountain.jpg" alt="Popular image" class="popular_img" />
+            <div class="popular_shadow"></div>
+          </div>
+          <h2 class="popular_title">Logan Mountain</h2>
+          <div class="popular_location">
+            <i class="ri-map-pin-line"></i><span>Canadá</span>
+          </div>
+        </article>
+
+        <article class="popular_card">
+          <div class="popular_image">
+            <img src="images/popular-forest.jpg" alt="Popular image" class="popular_img" />
+            <div class="popular_shadow"></div>
+          </div>
+          <h2 class="popular_title">Spike Forest</h2>
+          <div class="popular_location">
+            <i class="ri-map-pin-line"></i><span>Irland</span>
+          </div>
+        </article>
+
+        <article class="popular_card">
+          <div class="popular_image">
+            <img src="images/popular-lake.jpg" alt="Popular image" class="popular_img" />
+            <div class="popular_shadow"></div>
+          </div>
+          <h2 class="popular_title">Garda Lake</h2>
+          <div class="popular_location">
+            <i class="ri-map-pin-line"></i><span>Italy</span>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- explore section -->
+    <section class="explore section" id="explore">
+      <div class="explore_container">
+        <div class="explore_image">
+          <img src="images/explore-beach.jpg" alt="Explore image" class="explore_img" />
+          <div class="explore_shadow"></div>
+        </div>
+        <div class="explore_content container grid">
+          <div class="explore_data">
+            <h2 class="section_title">
+              Explore The <br /> Best Paradises
+            </h2>
+            <p class="explore_description">
+              Exploring paradises such as islands and valleys when traveling the world is one of the greatest experiences when you travel, it offers
+              you harmony and peace and you can enjoy it with great comfort.
+            </p>
+          </div>
+          <div class="explore_user">
+            <img src="images/explore-perfil.png" alt="Explore image" class="explore_perfil" />
+            <span class="explore_name">Paul Jeams</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- join section -->
+    <section class="join section">
+      <div class="join_container container grid">
+        <div class="join_data">
+          <h2 class="section_title">
+            Your Journey <br /> Starts Here
+          </h2>
+          <p class="join_description">
+            Get up to date with the latest travel and information from us.
+          </p>
+          <form action="" class="join_form">
+            <input type="email" class="join_input" placeholder="Enter your email" />
+            <button class="join_button button">
+              Subscribe Our Newsletter <i class="ri-arrow-right-line"></i>
+            </button>
+          </form>
+        </div>
+        <div class="join_image">
+          <img src="images/join-island.jpg" alt="Join image" class="join_img" />
+          <div class="join_shadow"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer_container container grid">
+      <div class="footer_content grid">
+        <div>
+          <a href="#" class="footer_logo">Travel</a>
+          <p class="footer_description">
+            Travel with us and explore <br /> the world without limits.
+          </p>
+        </div>
+        <div class="footer_data grid">
+          <div>
+            <h3 class="footer_title">About</h3>
+            <ul class="footer_links">
+              <li><a href="#" class="footer_link">About Us</a></li>
+              <li><a href="#" class="footer_link">Features</a></li>
+              <li><a href="#" class="footer_link">News & Blog</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer_title">Company</h3>
+            <ul class="footer_links">
+              <li><a href="#" class="footer_link">FAQs</a></li>
+              <li><a href="#" class="footer_link">History</a></li>
+              <li><a href="#" class="footer_link">Testimonials</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer_title">Contact</h3>
+            <ul class="footer_links">
+              <li><a href="#" class="footer_link">Call Center</a></li>
+              <li><a href="#" class="footer_link">Support Center</a></li>
+              <li><a href="#" class="footer_link">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer_title">Support</h3>
+            <ul class="footer_links">
+              <li><a href="#" class="footer_link"> Privacy Policy</a></li>
+              <li><a href="#" class="footer_link">Terms & Services</a></li>
+              <li><a href="#" class="footer_link">Payments</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer_group">
+        <div class="footer_social">
+          <a href="https://www.facebook.com/" target="_blank" class="footer_social_link"><i class="ri-facebook-line"></i></a>
+          <a href="https://www.instagram.com/" target="_blank" class="footer_social_link"><i class="ri-instagram-line"></i></a>
+          <a href="https://twitter.com/" target="_blank" class="footer_social_link"><i class="ri-twitter-line"></i></a>
+          <a href="https://www.youtube.com/" target="_blank" class="footer_social_link">
+            <i class="ri-youtube-line"></i></a>
+        </div>
+        <span class="footer_copy"> &#169; Created by Gul Rasulzada. </span>
+      </div>
+    </div>
+  </footer>
+  <!-- scroll-up -->
+  <a href="#" class="scroll_up" id="scrollUp"><i class="ri-arrow-up-line"></i></a>
+  <script src="scrollreveal.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>

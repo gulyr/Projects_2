@@ -53,3 +53,16 @@ const scrollActive = () => {
   })
 }
 window.addEventListener('scroll', scrollActive)
+// scroll reveal animation
+const sr = ScrollReveal({
+  origin: 'top',
+  distance: '30px',
+  duration: 3000,
+  delay: 400,
+  reset: true,
+})
+sr.reveal(`.home_data, .explore_data, explore_user, .footer_container`)
+sr.reveal('.home_card', { delay: 600, distance: '100px', interval: 100 })
+sr.reveal('.about_data, .join_image', { origin: 'right' })
+sr.reveal('.about_image, .join_data', { origin: 'left' })
+sr.reveal('.popular_card', { interval: 200 })
